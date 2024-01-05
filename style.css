@@ -102,3 +102,89 @@ Service  Section
   display: table;
   content:"";
 }
+
+/* 
+================
+About Us   Section
+================
+*/
+
+.aboutUs{
+
+  padding-top: 100px ;
+  padding-bottom: 100px;
+  text-align: center;
+  background-image: url("/img/workspace-1280538_1280.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+ 
+}
+
+.aboutus_content{
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-top: 30px;
+  font-size: 1.1em;
+}
+
+.about-btn{
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px 15px 10px 15px;
+  margin-top: 30px;
+  border: none;
+  outline: 1px solid yellow;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+/* 
+================
+Team  Section
+================
+*/
+
+.team {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: hsl(0, 0%, 95%);
+  width: 100%;
+  text-align: center;
+}
+
+.team-wrapper{
+  width: 90%;
+  padding-top: 50px;
+  margin: auto;
+}
+
+.col-team{
+  width: 33.33%;
+  float: left;
+  padding: 10px 30px 10px 30px;
+}
+
+.col-team img{
+  width: 100px;
+  max-width: 100%;
+  padding-bottom: 5px;
+}
+
+.tcol{
+  max-width: 200px;
+  max-height: 170px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 12px 14px 1px rgba(255, 255, 255, 0.8);
+  padding: 10px;
+}
+
+.team-wrapper::after{
+  clear: both;
+  content: "";
+  display: table;
+}
