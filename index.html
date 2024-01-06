@@ -6,8 +6,11 @@
     <title>Simple Html and Css Project</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+      href="fontawesome/fontawesome-free-6.5.1-web/css/fontawesome.min.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -36,7 +39,6 @@
       <h1>Services</h1>
 
       <div class="col-wrapper">
-
         <div class="services-col">
           <img
             src="img/web-development-computer-icons-logo-png-favpng-hB9N7QUi0p5N6TdVR6gBVQz9j.jpg"
@@ -89,7 +91,6 @@
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam esse
         nihil eveniet, sequi rem ab, facilis ullam expedita veniam obcaecati ad
         aperiam quis delectus soluta quia tenetur inventore aut perferendis.
-
       </p>
       <button class="about-btn"> Read More </button>
     </section>
@@ -126,9 +127,83 @@
             </div>
           </center>
         </div>
-
       </div>
     </section>
+
+    <section class="contract">
+      <div class="contract_cls">
+        <div class="contract_item">
+          <img
+            src="img/Contract/png-transparent-iphone-computer-icons-telephone-email-telephone-electronics-text-mobile-phones.png"
+            alt />
+          <p>01605234674</p>
+        </div>
+
+        <div class="contract_item">
+          <img
+            src="img/Contract/png-transparent-computer-icons-envelope-mail-envelope-miscellaneous-angle-triangle.png"
+            alt />
+          <p>mdanwar@gmail.com</p>
+        </div>
+
+        <div class="contract_item">
+          <img src="img/Contract/whatsapp-icon-2040x2048-8b5th74o.png" alt />
+          <p>01783473583</p>
+        </div>
+      </div>
+    </section>
+
+    <main class="contactinfo">
+      <div class="contactInfo-col1">
+        <h3>Contact Information</h3>
+
+        <div class="contact_left">
+          <div class="contact_email">
+            <i class="fa fa-laptop"></i> &nbsp; &nbsp;
+            <p>mdanwarhossain@gmail.com</p>
+          </div> <br />
+
+          <div class="contact_phone">
+            <i class="fa fa-phone"></i> &nbsp; &nbsp;
+            <p>01783473583</p>
+          </div>
+
+          <br /> <br />
+
+          <div class="social_links">
+            <div class="facebook">
+              <i class="fa fa-facebook"></i>
+            </div>
+            <div class="twitter">
+              <i class="fa fa-twitter"></i>
+            </div>
+            <div class="google">
+              <i class="fa fa-google"></i>
+            </div>
+            <div class="linkedIn">
+              <i class="fa fa-linkedin"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contactInfo-col2">
+        <h2>Write Your Message</h2>
+        <form action class="form">
+          <div class="form-col">
+            <label for="name"> Your Name </label>
+            <input type="text" class="fname">
+          </div>
+          <div class="form-col">
+            <label for="name"> Your Email</label>
+            <input type="email" class="femail">
+          </div>
+          <label for="msg" class="label">Message</label>
+          <textarea id class="msg" cols="30" rows="10"></textarea>
+          <button class="sendbtn">Send</button>
+        </form>
+      </div>
+    </main>
 
   </body>
 </html>
