@@ -4,6 +4,24 @@
   box-sizing: border-box;
 }
 
+
+/*Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+/* Color Variables */
+:root {
+    --white: #fff;
+    --black: #222;
+    --green: #6cbe02;
+    --grey1: #f0f0f0;
+    --grey2: #e9d7d3;
+}
+
+/* html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+} */
+
 body{
   font-family: 'Dosis', sans-serif;
 }
@@ -341,4 +359,50 @@ Form Style
   padding: 10px 30px 10px 30px;
   margin-top: 15px;
   cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    padding: 7rem 1rem;
+    background-color: #303441;
+
+}
+
+footer .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 99.6rem;
+    margin: 0 auto;
+}
+
+.footer .col {
+    flex-direction: column;
+    color: var(--white);
+    align-items: flex-start;
+}
+
+.footer .col:last-child {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer .col:last-child span {
+    font-size: 2.5rem;
+    margin-right: 0.5rem;
+    color: var(--white);
+}
+
+.footer .col a {
+    color: var(--white);
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    font-weight: 300;
+        font-size: 20px ;
+        display: block;
+        text-decoration: none;
+
+}
+
+.footer .col h4 {
+    margin-bottom: 1rem;
 }
